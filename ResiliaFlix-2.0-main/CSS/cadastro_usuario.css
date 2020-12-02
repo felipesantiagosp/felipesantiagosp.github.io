@@ -1,0 +1,33 @@
+#titulo_form{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.texto_form{
+    text-align: center;
+    margin: 0 auto;
+    font-size: 190%;
+    font-weight: bold;
+}
+
+#formulario{
+    width: 60%;
+    margin: 50px auto;
+    height: 400px;
+       
+}
+
+#botao{
+    text-align: center;
+    margin: 0 auto; 
+}
+
+.btn.btn-primary{
+    
+    width: 30%;
+}
+
+
+

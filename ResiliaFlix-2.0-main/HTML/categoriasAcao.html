@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="pt-br ">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/reset.css">
+    <link rel="stylesheet" href="../CSS/categorias.css">
+    <link rel="stylesheet" href="../CSS/modal.css">
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+    
+    <title>ResiliaFlix 2.0</title>
+</head>
+<body>
+    <header>
+
+        <div class="logo-search text-monospace">
+            <img src="../imagens/logo1.png" alt="" width="200px">
+            <div class="procurar ">
+              <a href="search.html"><button class="botao2"> Search</button></a>
+            </div>
+        </div>
+        <!-- NavBar início -->
+        <div >
+            <nav class="navbar navbar-expand-lg navbar-dark text-monospace  " style="background-color: #1c2b2d">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+            
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="alinhamento alinhamento1 navbar-nav mr-auto">
+                    <li class="nav-item active">
+                    <a class="nav-link font-color" href="inicio.html">Início<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle font-color" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Categorias
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="categoriasAcao.html">Ação</a>
+                        <a class="dropdown-item" href="categoriasComedia.html">Comédia</a>
+                        <a class="dropdown-item" href="categoriasDocumentarios.html">Documentários</a>
+                        <a class="dropdown-item" href="categoriasDrama.html">Drama</a>
+                        <a class="dropdown-item" href="categoriasRomance.html">Romance</a>
+                        <a class="dropdown-item" href="categoriasSuspense.html">Suspense</a>
+                        <a class="dropdown-item" href="categoriasTerror.html">Terror</a>
+                        <!-- <div class="dropdown-divider"></div> -->
+                        </div>
+                    <li class="nav-item">
+                    <a class="nav-link font-color" href="#">Contatos</a>
+                    </li>
+                  
+                    </ul>
+                    <ul class="alinhamento">
+                        <li class="nav-item">
+                          <a class="nav-link font-color alinhar-login" href="login2.html">Login</a>    
+                        </li>
+                        <li class="nav-item">
+                                <a class="nav-link font-color" href="cadastro_usuario.html">
+                                    <button class="botao1">Cadastre-se</button>
+                                </a>    
+                        </li>
+                    </ul>
+                
+                </div>
+            </nav>
+           
+          
+        </div>
+      </header>
+        <!-- NavBar Fim -->
+
+        <main>
+            <h1 class="titulo-filmes text-monospace">Ação</h1>
+            <div class="filme">
+                <img id="acao1"  data-toggle="modal" data-target="#modalEqualizer" src="../imagens/Posters/action1.jpg" alt="" height="300px">
+                <img id="acao2"  data-toggle="modal" data-target="#modalMissoaImpossivel"src="../imagens/Posters/action2.jpg" alt="" height="300px">
+                <img id="acao3"  data-toggle="modal" data-target="#modalMadMax"src="../imagens/Posters/action3.jpg" alt="" height="300px">
+
+
+            </div>
+            <div class="filme">
+                <img id="acao4"  data-toggle="modal" data-target="#modalAvengers"src="../imagens/Posters/action4.jpg" alt="" height="300px">
+                <img id="acao5"  data-toggle="modal" data-target="#modalAtaqueAoPoder"src="../imagens/Posters/action5.jpg" alt="" height="300px">
+                <img id="acao6"  data-toggle="modal" data-target="#modalSniper"src="../imagens/Posters/action6.jpg" alt="" height="300px">
+            </div>
+        </main>
+
+        <!--_____________________MODAL para descrição do fime Equalizer 2 -->
+    <div class="modal fade" id="modalEqualizer" data-backdrop="static" data-keyboard="false" tabindex="-1"
+    aria-labelledby="titulo" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content p-3 mb-2 bg-dark text-white">
+            <div class="modal-header">
+                <h1 id="titulo">Equalizer 2</h1>
+            </div>
+            <div class="modal-body">
+                <div id="img-flexbox">
+                    
+                    <img class="filme-img" src="../imagens/Posters/action1.jpg">
+                </div>
+                <div class="resumo">
+                    <p>Em <strong>The Equalizer 2</strong> Robert McCall está tentando levar sua vida normalmente  como motorista de aplicativo mas, seu passado acaba por voltar a visita-lo de maneira trágica, obrigando-o  a usar suas habilidades para acertar as coisas novamente.</p>
+                </div>
+                <div class="data-avaliacao">
+                    
+                    <h3 class="data">Lançamento: 20 de jul. de 2018</h3>
+                    <div class="avaliacao-txt">
+                        <h3 class="txt2">Avaliação: </h3> <h3 class="avaliacaop">80%</h3>
+                    </div>
+                </div>
+                <div class="genero-classificacao">
+                    <h3 class="genero">Gênero: Ação</h3>
+                    <div class="classificacao-txt">
+                        <h3 class="txt">Classificação:</h3><img class="classificacao" src="../imagens/classificacao/16.jpeg">
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Voltar</button>
+                <a href="https://www.imdb.com/title/tt3766354/"><button type="button" class="btn btn-primary">Assistir</button></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--______________MODAL do filme Missão Impossível Fall out-->
+<div class="modal fade" id="modalMissoaImpossivel" data-backdrop="static" data-keyboard="false" tabindex="-1"
+    aria-labelledby="titulo" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content p-3 mb-2 bg-dark text-white">
+            <div class="modal-header">
+                <h1 id="titulo">Missão Impossível: Fall out</h1>
+            </div>
+            <div class="modal-body">
+                <div id="img-flexbox">
+                    
+                    <img class="filme-img" src="../imagens/Posters/action2.jpg">
+                </div>
+                <div class="resumo">
+                    <p>Em <strong>Missão Impossível: Fall out</strong> depois de uma missão fracassada em Berlim, onde Ethan Hunt, Benji e Luther perdem o plutônio que deveriam comprar do mercado negro, a chefe da CIA, Erica Sloan, informa o diretor do IMF que um membro de sua equipe deve supervisionar a missão de recuperar o plutônio, já que ela não confia que Ethan Hunt possa fazê-lo. Isso significa que o agente Walker faz parte da equipe, mesmo que ele não goste do IMF.</p>
+                </div>
+                <div class="data-avaliacao">
+                    
+                    <h3 class="data">Lançamento: 27 de Abr. de 2012</h3>
+                    <div class="avaliacao-txt">
+                        <h3 class="txt2">Avaliação: </h3> <h3 class="avaliacaop">92%</h3>
+                    </div>
+                </div>
+                <div class="genero-classificacao">
+                    <h3 class="genero">Gênero: Ação, Espionagem</h3>
+                    <div class="classificacao-txt">
+                        <h3 class="txt">Classificação:</h3><img class="classificacao" src="../imagens/classificacao/14.png">
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Voltar</button>
+                <a href="https://www.imdb.com/title/tt4912910/"><button type="button" class="btn btn-primary">Assistir</button></a>
+            </div>
+        </div>
+    </div>
+    </div>
+
+        
+        <!--______________MODAL do filme Ataque ao Poder-->
+    <div class="modal fade" id="modalAtaqueAoPoder" data-backdrop="static" data-keyboard="false" tabindex="-1"
+    aria-labelledby="titulo" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content p-3 mb-2 bg-dark text-white">
+            <div class="modal-header">
+                <h1 id="titulo">Ataque ao Poder</h1>
+            </div>
+            <div class="modal-body">
+                <div id="img-flexbox">
+                    
+                    <img class="filme-img" src="../imagens/Posters/action5.jpg">
+                </div>
+                <div class="resumo">
+                    <p>No filme <strong>Ataque ao Poder</strong>O ex-militar John Cale tinha o grande sonho de entrar para a equipe do serviço secreto que protege o presidente dos Estados Unidos, mas vê sua intenção ir por água abaixo quando não é aprovado na seleção. Sem saber como dar a notícia para sua filha, ele a leva para um passeio à Casa Branca. O que John não esperava era que neste mesmo dia o local fosse atacado por um grupo paramilitar fortemente armado. Com o governo tendo que enfrentar o caos na nação e o relógio correndo, cabe a John encontrar algum jeito de salvar o presidente do ataque.</p>
+                </div>
+                <div class="data-avaliacao">
+                    
+                    <h3 class="data">Lançamento: 28 de jun. de 2013</h3>
+                    <div class="avaliacao-txt">
+                        <h3 class="txt2">Avaliação: </h3> <h3 class="avaliacaom">64%</h3>
+                    </div>
+                </div>
+                <div class="genero-classificacao">
+                    <h3 class="genero">Gênero: Ação,<br> Suspense.</h3>
+                    <div class="classificacao-txt">
+                        <h3 class="txt">Classificação:</h3><img class="classificacao" src="../imagens/classificacao/14.png">
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Voltar</button>
+                <a href="https://www.imdb.com/title/tt2334879/"><button type="button" class="btn btn-primary">Assistir</button></a>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!--______________MODAL  do filme Mad Max -->
+    <div class="modal fade" id="modalMadMax" data-backdrop="static" data-keyboard="false" tabindex="-1"
+    aria-labelledby="titulo" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content p-3 mb-2 bg-dark text-white">
+            <div class="modal-header">
+                <h1 id="titulo">Mad Max</h1>
+            </div>
+            <div class="modal-body">
+                <div id="img-flexbox">
+                    
+                    <img class="filme-img" src="../imagens/Posters/action3.jpg">
+                </div>
+                <div class="resumo">
+                    <p>O filme <strong>Mad Max</strong> se passa em um futuro distópico não muito distante, os recursos de óleo foram esgotados e o mundo está mergulhado em guerra, fome e caos financeiro. É quando o policial Mad Max, que não tem mais nada além de seus instintos de sobrevivência e retaliação, começa uma vingança contra uma gangue.</p>
+                </div>
+                <div class="data-avaliacao">
+                    
+                    <h3 class="data">Lançamento: 12 de Abr. de 1979</h3>
+                    <div class="avaliacao-txt">
+                        <h3 class="txt2">Avaliação: </h3> <h3 class="avaliacaom">69%</h3>
+                    </div>
+                </div>
+                <div class="genero-classificacao">
+                    <h3 class="genero">Gênero: Ficção científica,<br> Suspense.</h3>
+                    <div class="classificacao-txt">
+                        <h3 class="txt">Classificação:</h3><img class="classificacao" src="../imagens/classificacao/14.png">
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Voltar</button>
+                <a href="https://www.imdb.com/title/tt0079501/"><button type="button" class="btn btn-primary">Assistir</button></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    <!--______________MODAL  do filme Sniper -->
+    <div class="modal fade" id="modalSniper" data-backdrop="static" data-keyboard="false" tabindex="-1"
+    aria-labelledby="titulo" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content p-3 mb-2 bg-dark text-white">
+            <div class="modal-header">
+                <h1 id="titulo">Sniper</h1>
+            </div>
+            <div class="modal-body">
+                <div id="img-flexbox">
+                    
+                    <img class="filme-img" src="../imagens/Posters/action6.jpg">
+                </div>
+                <div class="resumo">
+                    <p>No filme<strong>Ataque ao Poder</strong>O ex-militar John Cale tinha o grande sonho de entrar para a equipe do serviço secreto que protege o presidente dos Estados Unidos, mas vê sua intenção ir por água abaixo quando não é aprovado na seleção. Sem saber como dar a notícia para sua filha, ele a leva para um passeio à Casa Branca. O que John não esperava era que neste mesmo dia o local fosse atacado por um grupo paramilitar fortemente armado. Com o governo tendo que enfrentar o caos na nação e o relógio correndo, cabe a John encontrar algum jeito de salvar o presidente do ataque.</p>
+                </div>
+                <div class="data-avaliacao">
+                    
+                    <h3 class="data">Lançamento: 6 de Out. de 2015</h3>
+                    <div class="avaliacao-txt">
+                        <h3 class="txt2">Avaliação: </h3> <h3 class="avaliacaor">56%</h3>
+                    </div>
+                </div>
+                <div class="genero-classificacao">
+                    <h3 class="genero">Gênero: Ação</h3>
+                    <div class="classificacao-txt">
+                        <h3 class="txt">Classificação:</h3><img class="classificacao" src="../imagens/classificacao/16.jpeg">
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Voltar</button>
+                <a href="https://www.imdb.com/title/tt4051678/"><button type="button" class="btn btn-primary">Assistir</button></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+ <!--______________MODAL do filme Avengers-->
+ <div class="modal fade" id="modalAvengers" data-backdrop="static" data-keyboard="false" tabindex="-1"
+ aria-labelledby="titulo" aria-hidden="true">
+ <div class="modal-dialog">
+     <div class="modal-content p-3 mb-2 bg-dark text-white">
+         <div class="modal-header">
+             <h1 id="titulo">Os Vingadores</h1>
+         </div>
+         <div class="modal-body">
+             <div id="img-flexbox">
+                 
+                 <img class="filme-img" src="../imagens/Posters/action4.jpg">
+             </div>
+             <div class="resumo">
+                <div class="resumo">
+                    <p>No filme <strong>Os Vingadores</strong> Loki retorna à Terra enviado pelos chitauri, uma raça alienígena que pretende dominar os humanos. Com a promessa de que será o soberano do planeta e rouba o cubo cósmico dentro de instalações da S.H.I.E.L.D. No intuito de contê-los, Nick Fury convoca um grupo de pessoas com grandes habilidades, mas que jamais haviam trabalhado juntas: Tony Stark/Homem de Ferro, Steve Rogers/Capitão América, Thor, Bruce Banner/Hulk e Natasha Romanoff/Viúva Negra. Só que, apesar do grande perigo que a Terra corre, não é tão simples assim conter o ego e os interesses de cada um deles para que possam agir em grupo.</p>
+             </div>
+             <div class="data-avaliacao">
+                 
+                 <h3 class="data">Lançamento: 27 de Abr. de 2012</h3>
+                 <div class="avaliacao-txt">
+                     <h3 class="txt2">Avaliação: </h3> <h3 class="avaliacaop">95%</h3>
+                 </div>
+             </div>
+             <div class="genero-classificacao">
+                 <h3 class="genero">Gênero: Ação, Aventura, <br>Ficção científica</h3>
+                 <div class="classificacao-txt">
+                     <h3 class="txt">Classificação:</h3><img class="classificacao" src="../imagens/classificacao/12.png">
+                 </div>
+             </div>
+         </div>
+         <div class="modal-footer">
+             <button type="button" class="btn btn-secondary" data-dismiss="modal">Voltar</button>
+             <a href="https://www.imdb.com/title/tt0848228/"><button type="button" class="btn btn-primary">Assistir</button></a>
+         </div>
+     </div>
+ </div>
+ </div>
+        <footer>
+            <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #1c2b2d">
+               
+            
+                <div class="collapse navbar-collapse d-flex justify-content-between" id="navbarSupportedContent">
+                    <img src="../imagens/logo1.png" alt="" width="100px">
+                                  
+                </div>
+            </nav>
+           
+        </footer>
+    
+</body>
+</html>

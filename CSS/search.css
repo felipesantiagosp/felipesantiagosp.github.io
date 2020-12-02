@@ -1,0 +1,74 @@
+main{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+}
+
+footer{
+    bottom: 0%;
+    background: absolute;
+}
+.input-search{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+.cx-texto{
+    border: solid 1px #1c2b2d;
+    border-radius: 5px;
+    height: 40px;
+    margin-right: 20px;
+}
+
+.input-bt{
+    border: solid 1px;
+    border-radius: 20px;
+    width: 100px;
+    background: #1D5A70;
+    color: white;
+}
+
+.poster{
+    align-self: center;
+    width: 200px;
+    margin-top: 40px;
+    border: inherit;
+    border-radius: 5px;
+}
+.flex-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo-filme{
+    font-weight: bolder;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Work Sans', sans-serif;
+
+}
+.info-filme{
+    line-height: 30px;
+    margin-bottom: 10px;
+    font-family: 'Work Sans', sans-serif;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+
+}
+.descricao-filme{
+    line-height: 30px;
+    margin-bottom: 10px;
+    font-family: 'Work Sans', sans-serif;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+
+
+
+}
+.modal-title{
+    font-family: 'Heebo', sans-serif;
+
+}

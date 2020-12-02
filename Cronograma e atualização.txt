@@ -1,0 +1,17 @@
+- Cadastro de usuário 
+- Login 
+- Contato 
+- Inicial 
+- Recuperação de senha
+
+
+Dia 22/11 - 25/11 
+
+CSS e HTML >>> https://colorhunt.co/palette/212849
+Fontes >>>  https://bebasneue.com/
+
+
+
+dias 26/11 - 01/12 
+
+Site finalizado (JS BLABLABLA); 

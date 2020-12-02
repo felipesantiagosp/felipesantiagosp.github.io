@@ -1,0 +1,91 @@
+.modal-header{
+
+        background-color:rgb(0, 0, 0 0.5);
+}
+
+#titulo{
+    color: gold;
+    font-weight: bold;
+    font-size: 2em;
+}
+strong{
+
+    color: gold;
+    font-weight: 600;
+}
+#img-flexbox{
+    display: flex;
+    justify-content: center;
+}
+.filme-img{
+    width: 160px;
+    text-align: center;
+}
+
+.resumo{
+    margin-top: 10px;
+    color: rgb(207, 206, 206);
+}
+
+.data-avaliacao{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.data{
+    color: rgb(104, 104, 245);
+    font-size: 1.3em;
+}
+
+.avaliacaop{
+    color: rgb(22, 202, 22);
+    font-size: 1.3em;
+}
+
+.genero-classificacao{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.avaliacao-txt{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.txt2{
+    margin-right: 6px;
+    margin-top: 1px;
+    font-size: medium;
+}
+.genero{
+    font-size: 1.3em;
+    vertical-align: top;
+}
+
+.classificacao-txt{
+
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.classificacao{
+    width: 30px;
+    border-radius: 4px;
+    height: 30px;
+}
+
+.txt{
+    margin-right: 10px;
+    margin-top: 7px;
+    font-size: medium;
+}
+
+.avaliacaom{
+    color: rgb(248, 248, 35);
+    
+}
+.avaliacaor{
+    color: rgb(250, 45, 45);
+}
